@@ -1,0 +1,30 @@
+<!--section 2-->
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+      <!-- Button trigger modal --> 
+   <div class="conteExperiencia container-fluid rounded shadow-sm p-3 mb-5">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Experiencia</h2>
+      <button type="button"  data-bs-toggle="modal" data-bs-target="#experienciaModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
+      <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button>
+          <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button> 
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1" *ngFor="let experien of experience">
+          <h3 class="mb-0">{{experien.titulo}}</h3>
+          <div>
+           <h3>{{experien.institucion}}</h3>
+           <h3>{{experien.nivel}}</h3>
+           <img [src]="experien.img" width="250">
+           <div class="flex-shrink-0"><span class="text-secundary">{{experien.inicio}} - {{experien.fin}}</span></div>
+          </div>
+         </div>
+         <br>
+         <br>
+       </div>
+     </div>
+  </div>
+</section>  
+
+                     
+                      
+      

@@ -1,0 +1,26 @@
+<!-- Proyectos-->
+<section class="resume-section" id="proyects">
+  <div class="conteProyectos container-fluid rounded shadow-sm p-3 mb-5">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Proyectos</h2>
+        <!-- Button trigger modal -->
+        <button type="button"  data-bs-toggle="modal" data-bs-target="#proyectosModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
+        <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button>
+        <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1" *ngFor="let proyect of proyectos">
+      
+      <div>
+       <h3>{{proyect.proyecto}}</h3>
+       <h3>{{proyect.texto}}</h3>
+       <img [src]="proyect.img" width="250">
+       
+      </div>
+     </div>
+     <br>
+     <br>
+   </div>
+ </div>
+</div>
+</section> 
+       

@@ -1,0 +1,26 @@
+ <!--section 3-->
+     <!-- Education-->
+     <section class="resume-section" id="education">
+      <div class="conteEstudios container-fluid rounded shadow-sm p-3 mb-5">
+         <div class="resume-section-content">
+            <h2 class="mb-5">Educación</h2>
+          <!-- Button trigger modal-->
+          <button type="button"  data-bs-toggle="modal" data-bs-target="#educacionModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
+          <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button>
+          <button type="submit" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button> 
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+               <div class="flex-grow-1" *ngFor="let educa of education">
+                  <h3 class="mb-0">{{educa.titulo}}</h3>
+                  <div>
+                   <h3>{{educa.institucion}}</h3>
+                   <img [src]="educa.img" width="250">
+                   <div class="flex-shrink-0"><span class="text-secundary">{{educa.inicio}} - {{educa.fin}}</span></div>
+                  </div>
+               </div>
+               <br>
+               <br>
+             </div>
+          </div>
+         </div>
+   </section>
+    <!-- FIN DE EDUCACION-->
