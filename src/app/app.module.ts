@@ -40,6 +40,7 @@ import { EliminarBannerComponent } from './components/modales/eliminar-banner/el
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -70,6 +71,7 @@ import { EliminarBannerComponent } from './components/modales/eliminar-banner/el
     BannerdashboardComponent,
     CrearBannerComponent,
     EliminarBannerComponent,
+   
  
     
     
