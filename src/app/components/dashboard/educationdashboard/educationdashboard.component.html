@@ -1,20 +1,21 @@
 <!--section 3-->
 <!-- Educacion dashboard-->
-     <section class="resume-section" id="education">
-        <div class="conteEstudios container-fluid rounded shadow-sm p-3 mb-5">
-           <div class="resume-section-content">
-              <h2 class="mb-5">Educación</h2>
-            <!-- Button trigger modal --> 
-            <button type="button"  data-bs-toggle="modal" data-bs-target="#educacionModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
-            <button type="button" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button>
-            <button type="button" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button>
+<section class="resume-section" id="education">
+  <div class="conteEstudios container-fluid rounded shadow-sm p-3 mb-5">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Educación</h2>
+      <h5 class="modal-title" id="exampleModalLabel">Editar Educación</h5>
+      <!-- Button trigger modal -->
+      <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#educacionModal" class="btn btn-close-white editEducation"><i class="fa-solid fa-pencil"></i></button>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#eliminarEducation" class="btn btn-close-white"><i class="fa-solid fa-trash-can"></i></button>
+      <button type="button" data-bs-toggle="modal" data-bs-target="#crearEducation" class="btn btn-close-white"><i class="fa-solid fa-plus"></i></button>  
 <!-- Fin de Educacion-->
 <!-- Modal Educación -->
 <div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog">
      <div class="modal-content">
        <div class="modal-header">
-         <h5 class="modal-title" id="exampleModalLabel">Editar Educación</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Editar Educación</h5>
          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
        </div>
        <form name="educacionForm"> 
