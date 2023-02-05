@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PorfolioService } from '../servicios/porfolio.service';//1. se importa el servicio 
+import { PorfolioService } from '../../servicios/porfolio.service';//1. se importa el servicio 
 @Component({
   selector: 'app-redes',
   templateUrl: './redes.component.html',

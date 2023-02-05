@@ -8,33 +8,36 @@ import { AppRoutingModule } from './app-routing.module';
 
 //Importar los componentes
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './modals/login/login.component';
-import { RedesComponent } from './redes/redes.component';
-import { BannerComponent } from './banner/banner.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { EducationComponent } from './education/education.component';
-import { SkillsComponent } from './skills/skills.component';
-import { InterestsComponent } from './interests/interests.component';
-import { AwardsComponent } from './awards/awards.component';
-import { WorkComponent } from './work/work.component';
-import { ProyectosComponent } from './proyectos/proyectos.component';
-import { IndexComponent } from './index/index.component';
-import { MainComponent } from './main/main.component';
-import { AcercademiComponent } from './acercademi/acercademi.component';
-import { ErrorComponent } from './error/error.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
-import { BotonlogoutComponent } from './botonlogout/botonlogout.component';
-import { AcercademidashboardComponent } from './acercademidashboard/acercademidashboard.component';
-import { ExperiencedashboardComponent } from './experiencedashboard/experiencedashboard.component';
-import { EducationdashboardComponent } from './educationdashboard/educationdashboard.component';
-import { ProyectosdashboardComponent } from './proyectosdashboard/proyectosdashboard.component';
-import { SkillsdashboardComponent } from './skillsdashboard/skillsdashboard.component';
-import { WorkdashboardComponent } from './workdashboard/workdashboard.component';
-import { BannerdashboardComponent } from './bannerdashboard/bannerdashboard.component';
+import { RedesComponent } from './components/redes/redes.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { EducationComponent } from './components/education/education.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { InterestsComponent } from './components/interests/interests.component';
+import { AwardsComponent } from './components/awards/awards.component';
+import { WorkComponent } from './components/work/work.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { IndexComponent } from './components/index/index.component';
+import { MainComponent } from './components/main/main.component';
+import { AcercademiComponent } from './components/acercademi/acercademi.component';
+import { ErrorComponent } from './components/error/error.component';
+import { DashboardComponent } from './components/dashboard/dashboard/dashboard.component';
+import { NavbardashboardComponent } from './components/dashboard/navbardashboard/navbardashboard.component';
+import { BotonlogoutComponent } from './components/botonlogout/botonlogout.component';
+import { AcercademidashboardComponent } from './components/dashboard/acercademidashboard/acercademidashboard.component';
+import { ExperiencedashboardComponent } from './components/dashboard/experiencedashboard/experiencedashboard.component';
+import { EducationdashboardComponent } from './components/dashboard/educationdashboard/educationdashboard.component';
+import { ProyectosdashboardComponent } from './components/dashboard/proyectosdashboard/proyectosdashboard.component';
+import { SkillsdashboardComponent } from './components/dashboard/skillsdashboard/skillsdashboard.component';
+import { WorkdashboardComponent } from './components/dashboard/workdashboard/workdashboard.component';
+import { BannerdashboardComponent } from './components/dashboard/bannerdashboard/bannerdashboard.component';
 import { CrearBannerComponent } from './components/modales/crear-banner/crear-banner.component';
 import { EliminarBannerComponent } from './components/modales/eliminar-banner/eliminar-banner.component';
+import { CrearEducationComponent } from './components/modales/crear-education/crear-education.component';
+import { EliminarEducationComponent } from './components/modales/eliminar-education/eliminar-education.component';
+
 
 
 
@@ -71,6 +74,8 @@ import { EliminarBannerComponent } from './components/modales/eliminar-banner/el
     BannerdashboardComponent,
     CrearBannerComponent,
     EliminarBannerComponent,
+    CrearEducationComponent,
+    EliminarEducationComponent
    
  
     

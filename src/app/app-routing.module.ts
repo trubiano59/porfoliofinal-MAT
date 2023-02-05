@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { IndexComponent } from './index/index.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { WorkComponent } from './work/work.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { ErrorComponent } from './error/error.component';
+import { IndexComponent } from './components/index/index.component';
+import { DashboardComponent } from './components/dashboard/dashboard/dashboard.component';
+import { WorkComponent } from './components/work/work.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { ErrorComponent } from './components/error/error.component';
 
 const routes: Routes = [
   {path: 'index', component:IndexComponent},

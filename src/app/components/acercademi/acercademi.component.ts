@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PorfolioService } from '../servicios/porfolio.service';
+import { PorfolioService } from '../../servicios/porfolio.service';
 @Component({
   selector: 'app-acercademi',
   templateUrl: './acercademi.component.html',
