@@ -18,13 +18,25 @@
 }
 
 .perfil{
-    margin-top: -15rem;
+    margin-top: -3rem;
+    border-style: solid;
+}
+
+.perfil.w-25{
+    width: 8rem !important;
+    border-style: solid;
+}
+
+
+
+/*.perfil{
+    margin-top: -3rem;
     
 }
 
 .perfil.w-25{
-    width: 15rem !important;
-}
+    width: 8rem !important;
+}*/
 
 .acerca{
     margin-top: 7rem !important;
@@ -38,7 +50,7 @@ h1.mb-0{
     margin-top: -5rem;
 }
 .oficina{
-    min-width: 10rem;
+    min-width: 15rem;
 }
 
 /*Barra de navegacion*/
@@ -97,10 +109,10 @@ section.panel{
     margin-top: 8rem;
 }
 
-/*sectión 1*/
+/*sectión 1
 .conteSobreMi{
     background-color: rgba(59, 68, 198, 0.898); 
-}
+}*/
 
 
 /*sectión 2*/

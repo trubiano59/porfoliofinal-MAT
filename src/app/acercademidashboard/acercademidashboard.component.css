@@ -1,7 +1,7 @@
 /*sectión 1*/
-/*.conteSobreMi{
-    background-color: rgba(16, 25, 146, 0.898); 
-}*/
+.conteSobreMi{
+    background-color: #4ba4dc; 
+}
 button.btn.btnLogin{
     background-color: rgb(102, 102, 231);
 }
@@ -11,3 +11,19 @@ button.btn.btnLogin{
 button.btn.btnDelete{
     background-color: crimson;
 }
+
+
+
+/*sectión 1
+.conteSobreMi{
+    background-color: rgba(55, 178, 235, 0.708); 
+}
+button.btn.btnLogin{
+    background-color: rgb(102, 102, 231);
+}
+.btn.btn-secondary{
+    background-color: red;
+}
+button.btn.btnDelete{
+    background-color: crimson;
+}*/

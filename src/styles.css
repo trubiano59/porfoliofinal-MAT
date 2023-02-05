@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+/*Esto es un comentario en css */
 .banner{
     background-image: linear-gradient(
         rgba(0,0,0,0.4),
@@ -14,25 +15,26 @@
     margin-top: -10rem;
 }
 
+
 .navegacion{
-    margin-top: -23rem;
+    margin-top: -25rem;
 }
 
 .perfil{
     margin-top: -15rem;
-    border-style: solid;
+    
 }
 
 .perfil.w-25{
     width: 15rem !important;
-    border-style: solid;
 }
+
 .acerca{
     margin-top: 7rem !important;
 }
 
 h1.mb-0{
-    margin-top: -13rem !important;
+    margin-top: -10rem !important;
 }
 
 .tituloPerfil{
@@ -45,14 +47,6 @@ h1.mb-0{
 /*Barra de navegacion*/
 .navbar.navbar-expand-lg.bg-primary{
     background-color: #138bc2 !important; } 
-
-/*i.fa-brands.fa-facebook.fa-xl,
-i.fa-brands.fa-instagram.fa-xl,
-i.fa-brands.fa-linkedin.fa-xl,
-i.fa-brands.fa-github.fa-xl,
-i.fa-solid.fa-user.fa-xl{
-    color: #FFFFFF
-}*/
 
 .fa-brands.fa-envelope-o.fa-xl:hover{
     --bs-text-opacity: 1;
@@ -80,14 +74,13 @@ i.fa-solid.fa-user.fa-xl{
 }
 
 .list-group{
-    color:white !important
     
+    color:white !important
 }
 
 h3 {
     background-color: #177fa2;
 }
-
 /*sectión 0*/
 section.about
 {
@@ -100,7 +93,7 @@ section.panel{
 
 /*sectión 1*/
 .conteSobreMi{
-    background-color: rgba(16, 116, 146, 0.898); 
+    background-color: rgba(16, 25, 146, 0.898); 
 }
 
 
@@ -126,8 +119,26 @@ h2 {
 /*sectión 4*/
 .conteSkills{
     background-color: rgba(23, 145, 145, 0.623);
+/*}*/
+
+
+/*{
+    background-color: #a1b5cd;
+    padding: 20px;
 }
 
+div {
+    background: #a1b5cd;
+}
+
+h1 {
+    background-color: #a1b5cd;
+}
+
+h1 {
+    text-align: center;
+}*/
+}
 
 .conteTextoTer{
     background-color:rgba(23, 145, 145, 0.623);
@@ -181,6 +192,7 @@ h2 {
     box-shadow: 0px 0px 20px rgba(0,0,0.5);
 }   
 
+
 meter
 {
     background-color: #000;
@@ -190,6 +202,7 @@ meter
     width: 200px;
 
 }
+
 
 .scrollspy-example {
     position: relative;
@@ -256,6 +269,20 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
 
 
 

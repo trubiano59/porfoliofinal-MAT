@@ -22,12 +22,12 @@
 }
 
 .perfil{
-    margin-top: -15rem;
+    margin-top: -3rem;
     border-style: solid;
 }
 
 .perfil.w-25{
-    width: 15rem !important;
+    width: 8rem !important;
     border-style: solid;
 }
 
@@ -97,7 +97,7 @@ h3 {
 /*sectión 0*/
 section.about
 {
-    margin-top: -10rem;
+    margin-top: -15rem;
 }
 
 section.panel{
