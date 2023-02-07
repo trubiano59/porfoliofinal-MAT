@@ -10,8 +10,8 @@ const routes: Routes = [
   {path: 'index', component:IndexComponent},
   {path: 'dashboard', component:DashboardComponent},
   {path: '', redirectTo: '/index', pathMatch: 'full'},
-  {path:'work', component:WorkComponent },
-  {path:'experiencia', component:ExperienceComponent},
+  //{path:'work', component:WorkComponent },
+  //{path:'experiencia', component:ExperienceComponent},
   {path:'**', component:ErrorComponent}
 ];
 

@@ -5,7 +5,10 @@
 button.btn.btnLogin{
     background-color: rgb(102, 102, 231);
 }
-.btn.btn-secondary{
+
+button.btn.btnCancel{
+    background-color: orange;
+}.btn.btn-secondary{
     background-color: red;
 }
 button.btn.btnAgree{
@@ -16,7 +19,4 @@ button.btn.btnMod{
 }
 button.btn.btnDelete{
     background-color: crimson;
-}
-button.btn.btnCancel{
-    background-color: orange;
 }

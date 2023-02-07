@@ -37,6 +37,8 @@ import { CrearBannerComponent } from './components/modales/crear-banner/crear-ba
 import { EliminarBannerComponent } from './components/modales/eliminar-banner/eliminar-banner.component';
 import { CrearEducationComponent } from './components/modales/crear-education/crear-education.component';
 import { EliminarEducationComponent } from './components/modales/eliminar-education/eliminar-education.component';
+import { CrearExperienceComponent } from './components/modales/crear-experience/crear-experience.component';
+import { EliminarExperienceComponent } from './components/modales/eliminar-experience/eliminar-experience.component';
 
 
 
@@ -75,7 +77,9 @@ import { EliminarEducationComponent } from './components/modales/eliminar-educat
     CrearBannerComponent,
     EliminarBannerComponent,
     CrearEducationComponent,
-    EliminarEducationComponent
+    EliminarEducationComponent,
+    CrearExperienceComponent,
+    EliminarExperienceComponent
    
  
     
